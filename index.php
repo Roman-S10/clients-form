@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -36,7 +36,7 @@
             </div>
             <div class="form-group">
                 <label for="client-phone">Телефон</label>
-                <input type="tel" class="form-control" id="client-phone" name="client-phone" placeholder="Телефон">
+                <input type="tel" class="form-control" id="client-phone" name="client-phone"  placeholder="+7 (900) 123-45-67" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}">
             </div>
             <div class="form-group">
                 <label for="client-email">email</label>
