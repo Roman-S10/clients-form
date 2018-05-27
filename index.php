@@ -32,15 +32,15 @@
         <form method="post" name="add-client-form" action="ClientController.php">
             <div class="form-group">
                 <label for="client-name">Имя</label>
-                <input type="text" class="form-control" id="client-name" name="client-name" placeholder="Имя">
+                <input type="text" class="form-control" id="client-name" name="client-name" placeholder="Имя" required>
             </div>
             <div class="form-group">
                 <label for="client-phone">Телефон</label>
-                <input type="tel" class="form-control" id="client-phone" name="client-phone"  placeholder="+7 (900) 123-45-67" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}">
+                <input type="tel" class="form-control" id="client-phone" name="client-phone"  placeholder="+7 (900) 123-45-67" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" required>
             </div>
             <div class="form-group">
                 <label for="client-email">email</label>
-                <input type="email" class="form-control" id="client-email" name="client-email" placeholder="name@example.com">
+                <input type="email" class="form-control" id="client-email" name="client-email" placeholder="name@example.com" required>
             </div>
             <button type="submit" class="btn btn-primary" name="add">Добавить</button>
         </form>
